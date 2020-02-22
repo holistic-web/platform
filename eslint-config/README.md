@@ -1,4 +1,5 @@
 # Eslint Config
+https://www.npmjs.com/package/@holistic-web/eslint-config
 
 This folder provides default eslint configuration for our projects. Our linting is based on [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) with our own custom rules defined in [rules/default.js](./rules/default.js).
 

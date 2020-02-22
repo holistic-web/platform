@@ -34,7 +34,7 @@ jobs:
 
     - name: Increment project version
       run: |
-        cd .project/eslint-config
+        cd eslint-config
         npm version patch
 
     - name: Commit changes
@@ -56,6 +56,6 @@ jobs:
 
     - name: Publish project
       run: |
-        cd .project/eslint-config
+        cd eslint-config
         echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
         npm publish --access public
